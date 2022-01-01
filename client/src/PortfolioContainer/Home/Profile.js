@@ -7,10 +7,10 @@ export default function Profile() {
                 <div className='profile-details'>
                     <div className='colz'>
                         <a href='#'>
-                            <i className='bi bi-github'></i>
+                            <i className='fa fa-github-square'></i>
                         </a>
                         <a href='#'>
-                            <i className='bi bi-linkedin'></i>
+                            <i className='fa fa-linkedin-square'></i>
                         </a>
                     </div>
                 </div>
