@@ -7,12 +7,14 @@ export default function Profile() {
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz">
-            <a href="https://github.com/AlexGroat">
-              <i className="fa fa-github-square"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/alex-groat-0a382513b/">
-              <i className="fa fa-linkedin-square"></i>
-            </a>
+            <div className="colz-icon">
+              <a href="https://github.com/AlexGroat">
+                <i className="fa fa-github-square"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/alex-groat-0a382513b/">
+                <i className="fa fa-linkedin-square"></i>
+              </a>
+            </div>
           </div>
         </div>
         <div className="profile-details-name">
@@ -45,13 +47,13 @@ export default function Profile() {
           </span>
         </div>
         <div className="profile-options">
-          <button className="btn primary-btn">
-            {" "}
-            Want to know more? {" "}
-          </button>
-          <a href="myresume.pdf" download='Alex Groat myresume.pdf'>
+          <button className="btn primary-btn"> Want to know more? </button>
+          <a href="myresume.pdf" download="Alex Groat myresume.pdf">
             <button className="btn highlighted-btn"> Get Resume</button>
           </a>
+        </div>
+        <div className="profile-picture">
+          <div className="profile-picture-background"></div>
         </div>
       </div>
     </div>
