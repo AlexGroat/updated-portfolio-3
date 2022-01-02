@@ -1,5 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
+import "./Profile.css";
 
 export default function Profile() {
   return (
@@ -7,53 +8,51 @@ export default function Profile() {
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz">
-            <div className="colz-icon">
-              <a href="https://github.com/AlexGroat">
-                <i className="fa fa-github-square"></i>
-              </a>
-              <a href="https://www.linkedin.com/in/alex-groat-0a382513b/">
-                <i className="fa fa-linkedin-square"></i>
-              </a>
-            </div>
+            <a href="https://github.com/AlexGroat">
+              <i className="fa fa-github-square"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/alex-groat-0a382513b/">
+              <i className="fa fa-linkedin-square"></i>
+            </a>
           </div>
-        </div>
-        <div className="profile-details-name">
-          <span className="primary-text">
-            {" "}
-            Hello, I'm <span className="highlighted-text"> Alex</span>
-          </span>
-        </div>
-        <div className="profile-details-role">
-          <span className="primary-text">
-            {" "}
-            <h1>
+
+          <div className="profile-details-name">
+            <span className="primary-text">
               {" "}
-              <Typical
+              Hello, I'm <span className="highlighted-text">Alex</span>
+            </span>
+          </div>
+          <div className="profile-details-role">
+            <span className="primary-text">
+              {" "}
+              <h1>
+                {" "}
+                <Typical 
                 loop={Infinity}
                 steps={[
-                  "Full Stack Developer 📱",
+                  "Full Stack Developer 💻",
                   3000,
-                  "Passion For Innovation 💻",
+                  "React Developer 📱",
                   3000,
-                  "React/React Native Developer 👨‍💻",
+                  "Passion For Innovation 👨‍💻",
                   3000,
                 ]}
-              />
-            </h1>
-            <span className="profile-role-tagline">
-              Substantial interest in building applications with front and back
-              end operations.
+                />
+              </h1>
+              <span className="profile-role-tagline">
+                Keen interest in building applications with front and back end operations.
+              </span>
             </span>
-          </span>
-        </div>
-        <div className="profile-options">
-          <button className="btn primary-btn"> Want to know more? </button>
-          <a href="myresume.pdf" download="Alex Groat myresume.pdf">
-            <button className="btn highlighted-btn"> Get Resume</button>
-          </a>
-        </div>
-        <div className="profile-picture">
-          <div className="profile-picture-background"></div>
+          </div>
+          <div className="profile-options">
+            <button className="btn primary-btn">
+              {" "}
+              Want to know more? {" "}
+            </button>
+            <a href="myresume.pdf" download="Alex Groat myresume.pdf">
+              <button className="btn highlighted-btn">Get Resume</button>
+            </a>
+          </div>
         </div>
       </div>
     </div>
