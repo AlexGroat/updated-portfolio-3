@@ -8,12 +8,14 @@ export default function Profile() {
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz">
-            <a href="https://github.com/AlexGroat">
-              <i className="fa fa-github-square"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/alex-groat-0a382513b/">
-              <i className="fa fa-linkedin-square"></i>
-            </a>
+            <div className="colz-icon">
+              <a href="https://github.com/AlexGroat">
+                <i className="fa fa-github-square"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/alex-groat-0a382513b/">
+                <i className="fa fa-linkedin-square"></i>
+              </a>
+            </div>
           </div>
 
           <div className="profile-details-name">
@@ -27,32 +29,33 @@ export default function Profile() {
               {" "}
               <h1>
                 {" "}
-                <Typical 
-                loop={Infinity}
-                steps={[
-                  "Full Stack Developer 💻",
-                  3000,
-                  "React Developer 📱",
-                  3000,
-                  "Passion For Innovation 👨‍💻",
-                  3000,
-                ]}
+                <Typical
+                  loop={Infinity}
+                  steps={[
+                    "Full Stack Developer 💻",
+                    3000,
+                    "React Developer 📱",
+                    3000,
+                    "Passion For Innovation 👨‍💻",
+                    3000,
+                  ]}
                 />
               </h1>
               <span className="profile-role-tagline">
-                Keen interest in building applications with front and back end operations.
+                Keen interest in building applications with front and back end
+                operations.
               </span>
             </span>
           </div>
           <div className="profile-options">
-            <button className="btn primary-btn">
-              {" "}
-              Want to know more? {" "}
-            </button>
+            <button className="btn primary-btn"> Want to know more? </button>
             <a href="myresume.pdf" download="Alex Groat myresume.pdf">
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>
+        </div>
+        <div className="profile-picture">
+          <div className="profile-picture-background"></div>
         </div>
       </div>
     </div>
