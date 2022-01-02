@@ -9,7 +9,7 @@ export default function AboutMe(props) {
             <div className='about-me-parent'>
                 <ScreenHeading title={'About Me'} subHeading={'Why Choose Me?'}/>
             </div>
-
+        
         </div>
     )
 }
