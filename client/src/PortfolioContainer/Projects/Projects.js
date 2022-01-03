@@ -9,9 +9,6 @@ import Animations from "../../utilities/Animations";
 import "./Projects.css";
 import Shape from '../../../src/assets/Testimonial/shape-bg.png';
 
-
-
-
 export default function Testimonial(props) {
 
     let fadeInScreenHandler = (screen) => {
