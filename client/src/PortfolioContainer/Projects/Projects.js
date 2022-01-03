@@ -50,7 +50,7 @@ export default function Testimonial(props) {
                 title= {'Projects'}
                 subHeading= {'Check out some of my previous projects!'}
                 />
-                <section className="project-section" id={props.id || ""}>
+                <section className="project-section fade-in" id={props.id || ""}>
                     <div className="container">
                         <div className="row">
                             <OwlCarousel className="owl-carousel" id="projects-carousel" {...options}>
