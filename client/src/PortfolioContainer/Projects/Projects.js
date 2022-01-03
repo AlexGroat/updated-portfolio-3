@@ -87,7 +87,7 @@ export default function Testimonial(props) {
                   <div className="proj-info">
                     
                     <a href="https://alexgroat.github.io/weather-dashboard/"><h5>Weather Dashboard</h5></a>
-                    <p>The dashboard displays current and future conditions, and this city is added to the search history.</p>
+                    <p>The dashboard displays current and future conditions, and this city is added to the search history</p>
                   </div>
                 </div>
               </div>
