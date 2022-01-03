@@ -7,6 +7,7 @@ import ScreenHeading from '../../utilities/ScreenHeading/ScreenHeading';
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import "./Projects.css";
+import Shape from '../../../src/assets/Testimonial/shape-bg.png';
 
 
 
@@ -150,7 +151,12 @@ export default function Testimonial(props) {
                         </div>
                     </div>
                 </section>
-            </div>
-        )
-
+                <div className="footer-image">
+        <img src={Shape} alt="Phot0 not responding" />
+      </div>
+    </div>
+  );
 }
+    
+        
+
