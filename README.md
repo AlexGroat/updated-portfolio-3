@@ -7,9 +7,6 @@ The website is styled using CSS and flexbox; it also has a reponsive layout so i
 
 Link to deployed application: https://alexgroatportfolio.herokuapp.com/
 
-![portfolio](https://user-images.githubusercontent.com/88314794/139621131-e740ec59-5675-4c4e-8407-ac67d01abbb9.png)
-
-
 # *License* #
 Copyright 2021 Alex Groat
 
